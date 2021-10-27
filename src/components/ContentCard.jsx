@@ -30,3 +30,5 @@ export default function ContentCard() {
         </div>
     )
 }
+
+// crear una carpeta assets dentro del src del proyceto, para luego meter las imagenes dentro de una carpeta llamada img 
