@@ -1,11 +1,13 @@
 
+import ilustracion from '../assets/img/illustration-hero.svg'
+import logomusic from '../assets/img/icon-music.svg'
 export default function ContentCard() {
     const alerta = () => {
         alert('Aqui esta el contenido del card');
     }
     return (
         <div>
-            <img src="../img/illustration-hero.svg" alt="" />
+            <img src={ilustracion} alt="" />
             <div>
                 <h2>Order Summary</h2>
                 <p>You can now lisen to millons of songs,
@@ -13,7 +15,7 @@ export default function ContentCard() {
                     anywhere you like!
                 </p>
                 <div className="content-price">
-                    <img className="musiclogo" src="../img/icon-music.svg" alt="iconmusic" />
+                    <img className="musiclogo" src={logomusic} alt="iconmusic" />
                     <h4 className="plan">Annual Plan
                         <span className="price"><br/>$59.99/year</span>
                     </h4>
