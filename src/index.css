@@ -1,13 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: hsl(225, 100%, 94%)
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.card {
+  /* border: 1px solid red; */
+  background-color: white;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  border-radius: 15px;
+  text-align: center;
+}
+img {
+  border-radius: 15px 15px 0px 0px;
+}
+p {
+  padding: 5px 60px;
+}
+button {
+  border: none;
+  border-radius: 15px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  padding: 15px;
+  width: 70%;
+}
+.musiclogo{
+  width: 50px;
+  height: 50px;
+  padding: 15px 0px 0px 15px;
+}
+.price{
+  font-size: 13px;
+  color: hsl(224, 23%, 55%);
+}
+.plan{
+  font-size: 15px;
+  font-weight: bold;
+}
+.change{
+  font-size: 13px;
+  font-weight: bold;
+  color: hsl(245, 75%, 52%);
+  padding: 19px 0px 0px 50px;
+  text-decoration: underline;
+}
+.cancel{
+  padding-bottom: 20px;
+  font-weight:  bold;
+  color: hsl(224, 23%, 55%);
+}
+/* hover */
+button:hover {
+  background-color: #7073EA;
+  color: white;
+  cursor: pointer;
+}
+.change:hover {
+  color: #7073EA;
+  cursor: pointer;
+  text-decoration: none;
+}
+.cancel:hover {
+  color: black;
+  cursor: pointer;
+}
+
+
+.content-price{
+  background-color:hsl(225, 100%, 98%);
+  margin: 0 auto;
+  margin-bottom: 10px;
+  height:80px;
+  width: 70%;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 60px 120px 120px;
+  grid-template-rows: 100px;
 }
