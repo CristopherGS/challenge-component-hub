@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/challenge-component-hub/static/css/main.8a5c1747.chunk.css",
-    "main.js": "/challenge-component-hub/static/js/main.315715a5.chunk.js",
-    "main.js.map": "/challenge-component-hub/static/js/main.315715a5.chunk.js.map",
+    "main.js": "/challenge-component-hub/static/js/main.b80a6f05.chunk.js",
+    "main.js.map": "/challenge-component-hub/static/js/main.b80a6f05.chunk.js.map",
     "runtime-main.js": "/challenge-component-hub/static/js/runtime-main.66f516a2.js",
     "runtime-main.js.map": "/challenge-component-hub/static/js/runtime-main.66f516a2.js.map",
     "static/js/2.a279542b.chunk.js": "/challenge-component-hub/static/js/2.a279542b.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.66f516a2.js",
     "static/js/2.a279542b.chunk.js",
     "static/css/main.8a5c1747.chunk.css",
-    "static/js/main.315715a5.chunk.js"
+    "static/js/main.b80a6f05.chunk.js"
   ]
 }
